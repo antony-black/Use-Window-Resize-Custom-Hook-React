@@ -4,7 +4,7 @@ import { useLayoutEffect } from "react";
 export default function useWindowResize() {
   const [windowSize, setWindowSize] = useState({
     width: 0,
-    heoght: 0,
+    height: 0,
   });
 
   const handleResize = () => {
